@@ -39,12 +39,12 @@ The script is the functional equivalent of moving the cursor to the head positio
 
 ## Install (as StreamDeck action)
 
-If you wish to use the service as a StreamDeck action, install the [OSAScript Plugin](https://github.com/gabrielperales/streamdeck-osascript), and then paste the contents of `go-to-line.applescript` into the text field.
+If you wish to use the service as a StreamDeck action, install the [OSAScript Plugin](https://github.com/gabrielperales/streamdeck-osascript), and then paste the contents of `Go to Line.applescript` into the text field.
 
 
 ## App Idiosyncracies
 
-Though most line-based editors use the <kbd>Command</kbd> + <kbd>↑</kbd> key combination to move the cursor to the first line, some do not. To compensate for this, you may consider adding conditional statements to the AppleScript source such that the key sent key codes correspond correctly to the application's UI. In the given files, an example is provided for the FileMaker application, which uses the key combination <kbd>Option</kbd> + <kbd>↑</kbd> to move the cursor:
+Though most line-based editors use the <kbd>Command</kbd> + <kbd>↑</kbd> key combination to move the cursor to the first line, some do not. To compensate for this, you may consider adding conditional statements to the AppleScript source such that the sent key codes correspond correctly to the application's UI. In the given files, an example is provided for the FileMaker application, which uses the key combination <kbd>Option</kbd> + <kbd>↑</kbd> to move the cursor:
 
 ```applescript
 if appname contains "FileMaker" then
