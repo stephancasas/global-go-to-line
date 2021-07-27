@@ -10,7 +10,6 @@ Because I hate clicking things, and I don't want carpal tunnel syndrome before I
 
 The script is the functional equivalent of moving the cursor to the head position, and then repeatedly striking the <kbd>↓</kbd> key the specified number of times.
 
----
 
 <p align="center"><br></p>
 
@@ -18,7 +17,6 @@ The script is the functional equivalent of moving the cursor to the head positio
 
 <p align="center"><br></p>
 
----
 ## Install (as service/quick action)
 
 1. Copy the `Go To Line.workflow` file into your user services directory:
@@ -43,7 +41,6 @@ The script is the functional equivalent of moving the cursor to the head positio
 
 If you wish to use the service as a StreamDeck action, install the [OSAScript Plugin](https://github.com/gabrielperales/streamdeck-osascript), and then paste the contents of `go-to-line.applescript` into the text field.
 
----
 
 ## App Idiosyncracies
 
@@ -67,13 +64,9 @@ Some Electron apps, like [RunJS](https://runjs.app), capture all HID input when 
 
 Applications which offer text wrapping may not position the cursor on the exact line you specify. This is, of course, because the wrapped text adds additional lines for the cursor to traverse.
 
----
-
 ## A Note From the Developer
 
 I hate AppleScript.
-
----
 
 ## License
 
